@@ -17,8 +17,9 @@ $ ls<ENTER>
 
 Copy and paste the output of ls below.
 ----------
-
-
+Desktop		Downloads	Movies		Pictures
+Documents	Library		Music		Public
+MacBookAir-FVFXH8QFJK7G:~ apple$ 
 
 ==========
 2a. Type: 
@@ -27,20 +28,42 @@ $ ls D<TAB>
 
 What happens?  Describe it below.
 ----------
+Desktop/   Documents/ Downloads/
 
-
-
+It selects all the directories with the letter D.
 ==========
 2b. Press <TAB> one more time.  Copy and paste the output below.
 ----------
 
-
+Display all 1365 possibilities? (y or n)
 
 ==========
 2c. Now press <ENTER>. Copy and paste the output below.
 ----------
-
-
+!                              mddiagnose
+./                             mdfind
+2to3-                          mdimport
+2to3-2.7                       mdimport32
+:                              mdls
+AppleFileServer                mdutil
+AssetCacheLocatorUtil          memory_pressure
+AssetCacheManagerUtil          mesg
+AssetCacheTetheratorUtil       mib2c
+BootCacheControl               mib2c-update
+BuildStrings                   mig
+CpMac                          mkbom
+DeRez                          mkdep
+DevToolsSecurity               mkdir
+DirectoryService               mkextunpack
+GetFileInfo                    mkfifo
+IOAccelMemory                  mkfile
+KernelEventAgent               mklocale
+MergePef                       mknod
+MvMac                          mkpassdb
+NetBootClientStatus            mktemp
+PasswordService                mmroff
+ResMerger                      mnthome
+--More--
 
 ==========
 3.  Type:
@@ -50,7 +73,8 @@ $ ls -l Documents<ENTER>
 Copy and paste the first *two lines* of output below.
 ----------
 
-
+total 4138944
+-rwxr-xr-x  1 apple  staff    3373553 May 11  2018 Anna.JPG
 
 ==========
 4.  Type:
@@ -59,7 +83,8 @@ $ ls -a Documents
 
 Copy and paste the first *two lines* of output below.
 ----------
-
+.					Hotel for Pets.numbers
+..					How to Screen Print.key
 
 
 ==========
@@ -70,7 +95,7 @@ Copy and paste the first *two lines* of output below.
 What command was repeated?
 ----------
 
-
+ls -l Documents is repeated. 
 
 ==========
 6.  Type:
@@ -80,7 +105,7 @@ What command was repeated?
 What command was repeated?
 ----------
 
-
+ls -a Documents is repeted
 
 ==========
 7.  Type:
@@ -90,17 +115,17 @@ $ ls /Vol<TAB><ENTER>
 What is the result of pressing tab?
 ----------
 
-
+Macintosh HD is the result.
 
 ==========
 8.  Type:
 
-$ ls doesnotexist
+$ c
 
 Copy and paste the output below.
 ----------
 
-
+-bash: c: command not found
 
 ==========
 9.  What key do I press to go to the previous command?
@@ -123,14 +148,14 @@ Copy and paste the output below.
 ==========
 12.  What was the main command that we used throughout this exercise?
 ----------
-
+tghe main command used was ls.
 
 
 ==========
 13.  Name one argument that we passed to the command.
 ----------
 
-
+-l or -a was used as an argument.
 
 ==========
 14.  Type:
@@ -140,7 +165,7 @@ $ foo<ENTER>
 Copy and paste the output below.
 ----------
 
-
+-bash: foo: command not found
 
 ==========
 15.  Type:
@@ -150,7 +175,7 @@ Copy and paste the output below.
 Copy and paste the output below.
 ----------
 
-
+-bash: foo: command not found
 
 ==========
 16.  In the following line....
@@ -159,3 +184,4 @@ $ ls -a Desktop
 
 What is the command, flag, argument, and prompt?
 ----------
+the command is ls the argument is -a the prompt is 

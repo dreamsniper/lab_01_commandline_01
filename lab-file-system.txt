@@ -292,3 +292,4 @@ A directory is a file usually pointed at by a file folder in the GUI
 ==========
 30. What's the *absolute* path (full path, starting at root) to your user's Downloads directory?
 ----------
+/Users/student/downloads

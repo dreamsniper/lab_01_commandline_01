@@ -32,6 +32,8 @@ If it doesn't start at #1 again, or ask for help before moving on!
 Copy and paste the output of pwd below.
 ----------
 
+$ pwd
+/c/Users/thedr/mtec1002
 
 
 ==========
@@ -43,7 +45,7 @@ $ ls
 Copy and paste the output below.
 ----------
 
-
+animals/
 
 ==========
 6. Type:
@@ -54,7 +56,7 @@ $ ls
 Copy and paste the output below.
 ----------
 
-
+animals/ food/
 
 ==========
 7. Type:
@@ -65,7 +67,7 @@ $ ls
 Copy and paste the output below.
 ----------
 
-
+animals/  foo/  food/
 
 ==========
 8. Type:
@@ -76,7 +78,7 @@ $ pwd
 Copy and paste the output below.
 ----------
 
-
+/c/Users/thedr/mtec1002/foo/bar/baz/qux
 
 ==========
 9. Type:
@@ -87,7 +89,7 @@ $ pwd
 Copy and paste the output below.
 ----------
 
-
+/c/Users/thedr/mtec1002/foo/bar
 
 ==========
 10. Type:
@@ -98,7 +100,7 @@ $ pwd
 Copy and paste the output below.
 ----------
 
-
+/c/Users/thedr/mtec1002/foo/bar/baz/qux
  
 ==========
 11. Type:
@@ -109,7 +111,7 @@ $ pwd
 Copy and paste the output below.
 ----------
 
-
+/c/Users/thedr/mtec1002
 
 ==========
 12. Type:
@@ -121,7 +123,9 @@ $ ls -l
 Copy and paste the first two lines from the output into the space below.
 ----------
 
-
+total 0
+drwxr-xr-x 1 thedr 197609 0 Feb  5 11:33 foo/
+drwxr-xr-x 1 thedr 197609 0 Feb  5 11:31 food/
 
 ==========
 13. Type:
@@ -132,7 +136,7 @@ $ pwd
 Copy and paste the output into the space below.
 ----------
 
-
+/c/Users/thedr
 
 ==========
 14. Type:
@@ -143,7 +147,7 @@ $ pwd
 Copy and paste the output into the space below.
 ----------
 
-
+bash: cd/volumes: No such file or directory
 
 ==========
 15. Type:
@@ -154,7 +158,7 @@ $ pwd
 Copy and paste the output into the space below.
 ----------
 
-
+ bash: cd/unkown_folder: No such file or directory
 
 ==========
 15. Type:
@@ -165,7 +169,7 @@ $ pwd
 Copy and paste the output into the space below.
 ----------
 
-
+/c/Users/thedr/mtec1002
 
 ==========
 16. Type:
@@ -175,13 +179,13 @@ $ hostname
 Copy and paste the output into the space below.
 ----------
 
-
+DESKTOP-PB6LAVA
 
 ==========
 17a. Make sure you're back in your mtec1002, which should be in your home folder.  What command would you use to find out if you're in the right folder?  Write the command below, then run it.
 ----------
 
-
+pwd
 
 ==========
 17b. If you're not in the right directory, type the following command:
@@ -204,7 +208,7 @@ lemon
 Use only one command to make all of these new directories.  Write what command you used below:
 ----------
 
-
+ mkdir -p pineapple/orange/strawberry/lemon
 
 ==========
 19. Make another directory called aardvark.  
@@ -212,7 +216,7 @@ Use only one command to make all of these new directories.  Write what command y
 Write the command you used to create the directory below:
 ----------
 
-
+mkdir aardvark
 
 ==========
 20. List the files and directories in the current directory using the long format.  
@@ -220,7 +224,7 @@ Write the command you used to create the directory below:
 What is the modified date of the aardvark directory?
 ----------
 
-
+drwxr-xr-x 1 thedr 197609 0 Feb  5 11:52 aardvark/
 
 ==========
 21. Make 3 directories nested within each other:
@@ -232,7 +236,7 @@ What is the modified date of the aardvark directory?
 What command did you use?
 ----------
 
-
+mkdir -p foo/bar/baz
 
 ==========
 22. Change your directory so that you're in the inner most directory (baz)
@@ -240,49 +244,49 @@ What command did you use?
 What command did you use?
 ----------
 
-
+cd foo/bar/baz
 
 ==========
 23. Change your directory so that you're two directories up (foo)
 
 What command did you use?
 ----------
-
+cd ../../
 
 ==========
 24. What command is used to delete empty directories?
 ----------
 
-
+rmdir
 
 ==========
 25. What command is used to print out your current working directory?
 ----------
 
-
+pwd
 
 ==========
 26. What flag do I pass to ls to print out all files?
 ----------
 
-
+-a
 
 ==========
 27. What's the shortcut for home directory?
 ----------
 
-
+cd ~
 
 ==========
 28. What's a pathname?
 ----------
 
-
+A pathname is the name of thr directries a file is found in.
 
 ==========
 29. What's a directory?
 ----------
-
+A directory is a file usually pointed at by a file folder in the GUI
 
 
 ==========

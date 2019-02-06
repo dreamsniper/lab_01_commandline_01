@@ -131,24 +131,24 @@ Copy and paste the output below.
 9.  What key do I press to go to the previous command?
 ----------
 
-
+UP
 
 ==========
 10.  Name two flags that we used in this exercise.
 ----------
 
-
+ls and cd
 
 ==========
 11.  What key do I use to attempt to autocomplete a command or a file name?
 ----------
 
-
+Tab
 
 ==========
 12.  What was the main command that we used throughout this exercise?
 ----------
-tghe main command used was ls.
+the main command used was ls.
 
 
 ==========
